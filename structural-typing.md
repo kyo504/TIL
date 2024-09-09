@@ -66,7 +66,7 @@ const options = useMemo(() => {
 2. 타입 확장: GroupOption 타입에 명시적으로 정의되지 않은 속성을 추가하는 것은 타입 확장의 한 형태입니다. 이는 TypeScript에서 허용됩니다.
 
 해결 방법
-만약 isDisabled 속성을 GroupOption 타입에 명시적으로 추가하고 싶다면, 타입 정의를 다음과 같이 수정할 수 있습니다:
+만약 `isDisabled` 속성을 GroupOption 타입에 명시적으로 추가하고 싶다면, 타입 정의를 다음과 같이 수정할 수 있습니다:
 
 ```typescript
 export interface GroupOption {
@@ -78,4 +78,4 @@ export interface GroupOption {
 }
 ```
 
-이렇게 하면 isDisabled 속성이 GroupOption 타입에 명시적으로 포함되며, 타입 정의와 실제 데이터 구조가 일치하게 됩니다.
+이렇게 하면 `isDisabled` 속성이 GroupOption 타입에 명시적으로 포함되며, 타입 정의와 실제 데이터 구조가 일치하게 됩니다.
